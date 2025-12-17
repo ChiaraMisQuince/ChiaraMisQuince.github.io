@@ -5,6 +5,9 @@
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
 }
+html {
+  font-size: 16px;
+}
 body {
     display: flex;
     justify-content: center;
@@ -12,6 +15,7 @@ body {
     /* height: 100vh; */
     margin: 0;
     padding: 0;
+    font-size: 1rem;
   }
   .ayuda{
   display: flex;
@@ -264,7 +268,7 @@ body {
     font-size: 7em;
   }
   .widget > h2{
-    font-family: 'Lilita One', cursive;
+    font-family: "Story Script", sans-serif;
     font-size: 32px;
     color: red;
     text-align: center;
@@ -1483,7 +1487,7 @@ button.accordion{
 
    .widget > h2{
     font-family: "Story Script", sans-serif;
-    font-size: 156px;
+    font-size: 4rem;
     color: red;
     text-align: center;
     letter-spacing: 5px;
@@ -1507,7 +1511,9 @@ button.accordion{
   }
   h2.ctofalta{
     text-align: center;
-    font-size: 180px;
+    /* font-size: 180px; */
+  
+    font-size: 5rem;
   }
 
   /* .galeria{
@@ -1528,11 +1534,12 @@ button.accordion{
     background-image: url("./img/fondo3.avif");
   }
   .canciones h2{
-    font-size: 6em;
+    font-size: 3rem;
   }
   .canciones h3{
-    font-size: 4.2em;
+    font-size: 2rem;
     margin-top: 1em;
+    color: #000;
   }
   .portada{
     background-image: url("./img/portada.avif"); 
@@ -1571,14 +1578,14 @@ button.accordion{
     font-size: 25px;
   }
   .fecha >h3{
-    font-size: 5.3em;
+    font-size: clamp(1.5rem, 4vw, 3rem);
   }
   .lottie{
-    width: 220px;
-    height: 220px;
+    width: 5rem;
+    height: 5rem;
   }
   .direccion{
-    font-size: 5.5rem;
+    font-size: clamp(1.5rem, 4vw, 3rem);
   }
   .button_slide{
     font-size: 49px;
@@ -1595,8 +1602,8 @@ button.accordion{
   }
 
   .canciones input {
-    font-size: 81px;      /* LETRA MÁS GRANDE */
-    padding: 68px 12px;        /* INPUTS MÁS ALTOS */
+    font-size: 2rem;      /* LETRA MÁS GRANDE */
+    padding: 30px 6px;        /* INPUTS MÁS ALTOS */
   }
 
   .canciones .botonw {
@@ -1606,7 +1613,7 @@ button.accordion{
     
   }
   .botonw{
-    height: 150px;
+    height: 6rem;
   }
    .contformcent{
     display: flex;
@@ -1650,6 +1657,7 @@ font-size: 6em;
 label{
   font-size: 4.5em;
   color: #ff0000;
+
 }
 footer h6{
   font-size: 4rem;
