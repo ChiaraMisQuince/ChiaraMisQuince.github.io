@@ -325,7 +325,7 @@ body {
   font-weight:800;
   color:#000;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   /* text-shadow: -1px 0px 1px #000; */
 }
 
@@ -1607,7 +1607,7 @@ button.accordion{
   }
 
   .canciones .botonw {
-    font-size: 74px;
+    font-size: 50px;
     /* padding: 20px; */
     margin-bottom: 200px
     
@@ -1622,8 +1622,8 @@ button.accordion{
   }
 
   .formulario input{
-    font-size: 81px;      /* LETRA MÁS GRANDE */
-    padding: 68px 12px;        /* INPUTS MÁS ALTOS */
+    font-size: 4rem;      /* LETRA MÁS GRANDE */
+    padding: 35px 6px;        /* INPUTS MÁS ALTOS */
   }
 
   .formulario{
@@ -1665,6 +1665,9 @@ footer h6{
 
 .pie i{
   font-size: 4.2em;
+}
+.final>img{
+  width: 45%;
 }
 
 .simply-section {
