@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     /* background-color:#000; */
-    background-image: url('/img/fondo\ dorado.jpg');
+    background-image: url('/img/fondo\ dorado.avif');
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -142,7 +142,7 @@ body {
 }
 
 .contformcent{
-  background-image: url('/img/fondo3.webp');
+  background-image: url('/img/fondo3.avif');
   background-size:cover;
 }
 .formulario h1{
@@ -437,8 +437,8 @@ div.flor>img{
   color:#FF80FF;
 }
 .lottie{
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
 }
 /* Altura base del carousel */
 #carouselExampleIndicators .carousel-item {
@@ -642,7 +642,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./img/fondo3.webp");
+    background-image: url("./img/fondo3.avif");
     background-size: cover;
     /* background-attachment: fixed; */
     background-color: white;
@@ -870,10 +870,6 @@ align-content: center;
   background-color: black;
   margin-top: auto;
 } 
-.container_1{
-  margin-top: 50px;
-  /* background-color: black; */
-}
 
 .container_2 {
   display: flex;
@@ -1529,7 +1525,7 @@ button.accordion{
     margin: auto;
   }
   section.canciones{
-    background-image: url("./img/fondo3.jpg");
+    background-image: url("./img/fondo3.avif");
   }
   .canciones h2{
     font-size: 6em;
